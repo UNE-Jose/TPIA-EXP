@@ -1,36 +1,37 @@
-# TPIA-EXP
-Repositorio de la Asignatura de Técnicas de Programación en Inteligencia Artificial - Experto Universitario - Universidad Europea del Atlántico
+# 📂 TPIA-EXP: Rama de Entregas
 
-**Requisitos Previos**
+¡Bienvenido/a al repositorio oficial de entregas para la asignatura **TPIA**! Este espacio está organizado de manera estructurada para la correcta recepción y revisión de las actividades prácticas.
 
-Aunque no es estrictamente necesario, es muy conveniente que el alumnado matriculado en el curso sea competente en las siguientes materias:
+---
 
-- **Estadística Descriptiva:** Necesaria para el Análisis Exploratorio de Datos (EDA) por sus siglas en Inglés
-- **Programación:** El curso puede ser seguido más fácilmente por el estudiantado que, aunque no tenga experiencia de programación en Python, haya recibido formación en algún lenguaje de programación.
-- **Matemática Numérica o Métodos Numéricos:** Facilita la comprensión de los algoritmos de aprendizaje. 
+## 📋 Formato de Entrega Obligatorio
 
-Para un correcto desempeño en el curso, los contenidos se deben seguir en el siguiente orden:
+Para asegurar un flujo de trabajo ordenado y facilitar la corrección, todas las entregas deben seguir estrictamente la siguiente estructura de directorios y nomenclatura:
 
-1. **Presentaciones:** En esta carpeta se encuentra la presentación de la asignatura y la presentación introductoria a la Inteligencia Artificial y a la Ciencia de Datos
-2. **Introducción:** Esta carpeta contiene el primer tema de la asignatura - _Tema I - Primeros Pasos con Python y Jupyter Notebooks_
-3. **Estructuras de Datos:** Esta carpeta contiene el segundo tema de la asignatura - _Tema II - Estructuras de Datos_
-4. **Pandas:** Esta carpeta contendrá el tercer tema de la asignatura - _Tema III - Pandas_
-5. **Análisis Exploratorio de Datos (EDA):** Esta carpeta contendrá el cuarto tema de la asignatura - _Tema IV - EDA_
-6. **Ingeniería de Características:** Esta carpeta contendrá el quinto tema de la asignatura - _Tema V - FE_
-7. **Algoritmos de Clasificación:** Esta carpeta contendrá el sexto tema de la asignatura - _Tema VI - Clasificación_
-8. **Algoritmos de Regresión:** Esta carpeta contendrá el séptimo tema de la asignatura - _Tema VII - Regresión_
-9. **Algoritmos de Asociación:** Esta carpeta contendrá el octavo tema de la asignatura - _Tema VIII - Asociación_
-10. **No Code / Low Code / Vibe Coding:** Esta carpeta contendrá el noveno tema de la asignatura - _Tema IX - Citicen Data Scientist_
-11. **Aplicaciones de Inteligencia Artificial:** Esta carpeta contendrá el décimo tema de la asignatura - _Tema X - Aplicaciones_
-
-**¿Quieres seguir este curso utilizando Google Colab?:** Clona el repositorio con el siguiente código:
-
-```
-!git clone https://github.com/paucres/TPIA-EXP.git
+```text
+apellidoNombre/
+├── A01/
+|   └── tu_notebook.ipynb
+├── A02/
+...
 ```
 
-**Usas VS Code?:** Clona el repositorio con el siguiente código:
+## 📌 Detalles del Formato:
+- **Carpeta Principal (`apellidoNombre`):** Reemplaza esto con tu primer apellido y tu nombre juntos (ejemplo: `perezJuan`, `garciaMaria`). Sin espacios ni acentos si es posible.
+- **Carpeta de Actividad (`A` + Número):** Una carpeta por cada actividad asignada (por ejemplo, `A01`, `A02`, `A03`, etc.).
+- **Archivo de Notebook (`.ipynb`):** El archivo ejecutable de Jupyter con la resolución de la práctica dentro de su respectiva carpeta.
 
+## ⚙️ Ejemplo Práctico de Estructura
+
+```Plaintext
+📦 TPIA-EXP
+ ├ 📂 perezJuan
+ | └ 📂 A01
+ |   └ 📜 practica_ml.ipynb
+ └ 📂 gomezAna
+   ├ 📂 A01
+   |   └ 📜 introduccion.ipynb
+   └ 📂 A02
+     └ 📜 regresion.ipynb
 ```
-git clone https://github.com/paucres/TPIA-EXP.git
-```
+>💡 Nota importante: Asegúrate de verificar que tus notebooks corran desde la primera hasta la última celda sin errores antes de hacer el push o pull request en esta rama.
